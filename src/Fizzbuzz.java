@@ -14,7 +14,7 @@
  * 
  * Print your results to the console, or using JOptionPane if you like.
 **/
-
+ 
 public class Fizzbuzz { 
 public static void main(String[] args) {
 for (int z = 1; z < 21; z+=1) {
@@ -29,7 +29,7 @@ System.out.println("buzz");
 }
 else {
 System.out.println(z);	
-
+ 
 }
 }
 }
