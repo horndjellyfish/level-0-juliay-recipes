@@ -19,7 +19,7 @@ String rhink = JOptionPane.showInputDialog("Do you have a guess?");
 //			for (int i = 99; i > 0; i-=1) 
 			for (int i = 0; i > 11; i+=1){
 			
-			if ( socialtimeout == random) {
+			if (socialtimeout == random) {
 			JOptionPane.showMessageDialog(null, "Yes! You win!");	
 			}
 			// 7. if the guess is high

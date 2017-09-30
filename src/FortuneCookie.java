@@ -32,7 +32,7 @@ public class FortuneCookie implements ActionListener {
 		String fortune3 = "Your teacher will be sick today.";
 		String fortune4 = "Your hero will be honored today.";
 		String fortune5 = "An enemy will bow down to you.";
-		int rand = 1 + new Random().nextInt(4);
+		int rand = 1 + new Random().nextInt(5);
 		String message = "woohoo";
 		if (rand == 1) {
 			message = fortune1;
