@@ -12,6 +12,7 @@ void draw() {
   xpos = xpos+xSpeed;
   ypos = ypos+ySpeed;
   System.out.println("xpos =" + xpos);
+  System.out.println("ypos =" + ypos);
   System.out.println("width =" + width);
   if (xpos > width || xpos < 0) {
     xSpeed = -xSpeed;
@@ -24,6 +25,10 @@ void draw() {
     paddleX = mouseX;
   }
   rect(paddleX, 475, 125, 30);
+  if (ypos > height) {
+    textSize(80);
+    text("Game over!", 30, 250);
+  }
 }
 boolean intersects(int ballx, int bally, int paddlex, int paddley, 
 int paddleLength) {
@@ -31,5 +36,6 @@ int paddleLength) {
     return true;
   else   
     return false;
+
 }
 
