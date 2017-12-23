@@ -7,7 +7,7 @@ int ySpeed = 3;
 int xSpeed = 3; 
 int paddleX = 0;
 void draw() {
-  background(0, 233, 233);
+  background(0, 255, 255);
   ellipse(xpos, ypos, 35, 35);
   xpos = xpos+xSpeed;
   ypos = ypos+ySpeed;

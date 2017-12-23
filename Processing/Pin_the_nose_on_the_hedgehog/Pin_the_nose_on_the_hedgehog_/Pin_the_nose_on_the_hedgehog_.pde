@@ -10,8 +10,6 @@ void setup() {
   nose = loadImage("hedgehognose.jpeg");
 }
 void draw() {
-
-  //image(nose, mouseX-10, mouseY-20);
   rect(0, 0, 30, 30);
   if (mouseX > 0 && mouseX < 25 && mouseY > 0 && mouseY < 25) {
     background(hedgehog);
